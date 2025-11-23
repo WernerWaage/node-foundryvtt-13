@@ -7,6 +7,8 @@ Here is my take on how to get Foundry VTT up and running in a docker container i
 * Foundry VTT License
 * Intelligence score of 8 or higher
 
+
+# Roll for initiative:
 * Download the node js zip file from https://foundryvtt.com/
  ![Page showing foundry vtt downloads](/gfx/foundry0.png?raw=true)
  Create a new folder called pkg, we will refer to this later, unpack all the files to the pkg folder. Double check that the main.js file is located inside the root of the pkg folder
