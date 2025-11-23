@@ -2,6 +2,8 @@
 
 * Download the node js zip file from https://foundryvtt.com/
  ![Page showing foundry vtt downloads](/gfx/foundry0.png?raw=true)
+ Create a new folder called pkg, we will refer to this later, unpack all the files to the pkg folder. Double check that the main.js file is located inside the root of the pkg folder
+ ![Screenshot of unzipped files](/gfx/foundry-1.png?raw=true)
 
 * Clone this repository to local filesystem
 * cd to repository `cd *\node-foundryvtt-13`
@@ -16,14 +18,14 @@
 * Test if the image is running by opening http://localhost:30000
 ![Image showing the installed page where you enter your license](/gfx/foundry4.png?raw=true)
 
+* Explore some dungeons with your friends :)
 
 
 ## Setting up port forwarding in your firewall
 * Forward port 30000 to your computer if you want to make instance available online
 
-
 ## Debugging
 # Server is running but you cant browse to 0.0.0.0:30000 ? Check if the port is mapped `docker ps` also check if the external port is mapped to 30000, not setting the port or setting it to 0 when running the image will generate a random external port number 
 
 
-Thanks to thomasfa18 for creating the original image!
+Thanks to [thomasfa18](https://github.com/thomasfa18/) for creating the original image!
