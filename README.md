@@ -1,4 +1,11 @@
 # Foundry VTT v13+ repository
+Here is my take on how to get Foundry VTT up and running in a docker container in less than 30 minutes
+
+# Requirements:
+* Docker desktop (for windows) https://docs.docker.com/desktop/setup/install/windows-install/
+* WSL or Hyper-V (check docker documentation if unsure)
+* Foundry VTT License
+* Intelligence score of 8 or higher
 
 * Download the node js zip file from https://foundryvtt.com/
  ![Page showing foundry vtt downloads](/gfx/foundry0.png?raw=true)
