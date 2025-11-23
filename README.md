@@ -1,3 +1,10 @@
+# Foundry VTT v13+ repository
+
+* Clone this repository to local filesystem
+* cd to repository 'cd *\node-foundryvtt-13'
+
+
+
 This is just a base image using latest node-alpine  
 It expects that you will mount path /pkg and /data to it  
 - /pkg contains your licensed node.js version of foundry (where you extracted the zip file) 
