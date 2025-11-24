@@ -33,4 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/node-foundryvtt-13:lates
+          tags: ${{ secrets.DOCKER_USERNAME }}/node-foundryvtt:v13
