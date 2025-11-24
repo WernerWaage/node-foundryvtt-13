@@ -21,4 +21,10 @@ jobs:
 
       - name: Verify Login
         run: echo "Successfully logged in to Docker Hub as ${{ secrets.DOCKER_USERNAME }}"
-
+      
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/node-foundryvtt-13:latest
