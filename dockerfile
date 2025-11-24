@@ -1,5 +1,10 @@
-# Use an current node alpine image
-FROM node:current-alpine3.19
+# Use a lightweight Node.js image based on Alpine Linux
+FROM node:20-alpine3.19
+RUN apk update && apk upgrade --no-cache
+
+# Create app directory
+# WORKDIR /pkg
+# Install app dependencies
 
 # External portmapping done when running the image!
 # make the default port accessible (you would need to change this to match your config.js in you data directory if you change from default)
