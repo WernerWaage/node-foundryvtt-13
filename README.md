@@ -1,19 +1,22 @@
 # Foundry VTT v13+ repository
-Here is my take on how to get Foundry VTT up and running in a docker container in less than 30 minutes
-Im using the docker.desktop client to get an overview of running containers and downloaded images. This image will run without this client, but the steps below will use the client and the terminal to get the image up and running.
+Here is my take on how to get Foundry VTT up and running in a docker container in less than 30 minutes.  
+Im using the Docker.desktop client to get an overview of running containers and downloaded images. This image will run without this client, but the screenshots in the installation steps below will use the client and the terminal to get the image up and running.
 
-  
-# Requirements:
-* [Docker desktop (for windows)] https://docs.docker.com/desktop/setup/install/windows-install/
-* [Hyper-V or WSL](https://docs.docker.com/desktop/setup/install/windows-install/#system-requirements)
-* [Foundry VTT License](https://foundryvtt.com/me/licenses)
-  
+
   
 [![CI to Docker Hub](https://github.com/WernerWaage/node-foundryvtt/actions/workflows/docker-image.yml/badge.svg)](https://github.com/WernerWaage/node-foundryvtt/actions/workflows/docker-image.yml)
 ![Docker Image Version](https://img.shields.io/docker/v/wernerwaage/node-foundryvtt?sort=semver)
 ![Docker Image Size](https://img.shields.io/docker/image-size/wernerwaage/node-foundryvtt)
 [![Docker Build Date](https://img.shields.io/github/last-commit/WernerWaage/node-foundryvtt?label=last+build&logo=docker)](https://hub.docker.com/repository/docker/wernerwaage/node-foundryvtt/general)
+
+
+# Requirements:
+* [Docker desktop (for windows)](https://docs.docker.com/desktop/setup/install/windows-install)
+* [Hyper-V or WSL](https://docs.docker.com/desktop/setup/install/windows-install/#system-requirements)
+* [Foundry VTT License](https://foundryvtt.com/me/licenses)
   
+  
+
 # Roll for initiative:
 * Download the node js zip file from https://foundryvtt.com/
  ![Page showing foundry vtt downloads](/gfx/foundry0.png?raw=true)
